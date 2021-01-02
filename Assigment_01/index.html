@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS_Course_Work</title>
+    <link href="asscest/normalize.css" rel="stylesheet">
+    <style>
+        section > section {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+        }
+
+        section > section:nth-child(1) {
+            top: 0;
+            left: 0;
+            background: red;
+        }
+
+        section > section:nth-child(2) {
+            top: 0;
+            right: 0;
+            background: green;
+        }
+
+        section > section:nth-child(3) {
+            bottom: 0;
+            left: 0;
+            background: yellow;
+        }
+
+        section > section:nth-child(4) {
+            bottom: 0;
+            right: 0;
+            background: deeppink;
+        }
+
+        section > div {
+            /* width: 11.1%;
+             height: 22%;*/
+            width: 150px;
+            height: 150px;
+            background: white;
+            position: absolute;
+        }
+
+        section > div:nth-child(5) {
+            top: 0;
+            left: 0;
+            border-bottom-right-radius: 100%;
+
+        }
+
+        section > div:nth-child(6) {
+            top: 0;
+            right: 0;
+            border-bottom-left-radius: 100%;
+
+        }
+
+        section > div:nth-child(7) {
+            bottom: 0;
+            right: 0;
+            border-top-left-radius: 100%;
+        }
+
+        section > div:nth-child(8) {
+            bottom: 0;
+            left: 0;
+            border-top-right-radius: 100%;
+        }
+
+        section > article {
+            width: 150px;
+            height: 150px;
+            background: white;
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        section > article > div {
+            width: 150px;
+            height: 150px;
+            background: black;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        section > aside {
+            width: 11.1%;
+            height: 11%;
+            background: black;
+            position: absolute;
+            z-index: 2;
+
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        section > aside:nth-child(10) {
+            top: 0;
+            border-bottom-right-radius: 120px;
+            border-bottom-left-radius: 120px;
+        }
+
+        section > aside:nth-child(11) {
+            bottom: 0;
+            border-top-right-radius: 120px;
+            border-top-left-radius: 120px;
+        }
+
+        section > section > div {
+            width: 150px;
+            height: 150px;
+            background: white;
+            position: absolute;
+            border-radius: 100%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        section > section > div > div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut consequatur dolores eaque enim, eos eveniet
+    facilis inventore ipsa laboriosam molestias nam non recusandae repudiandae sint, suscipit voluptate! Nam,
+    pariatur!</p>
+<section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <article>
+        <div></div>
+    </article>
+    <aside></aside>
+    <aside></aside>
+</section>
+</body>
+</html>

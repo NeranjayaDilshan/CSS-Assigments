@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6c57442-ecfe-43cc-b155-002e3e06d230" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mSa2kEYGWVDIR1vtelEfvvFIFE" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assigment_02" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6c57442-ecfe-43cc-b155-002e3e06d230" name="Default Changelist" comment="" />
+      <created>1609489243080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609489243080</updated>
+      <workItem from="1609489245276" duration="337000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add Para">
+      <created>1609489479544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609489479544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Para" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Para" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1609489478423">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1536.834/-1024.130.1024.738@0.0.1536.834" timestamp="1609489478423" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1609489275498">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/-1024.130.1024.738@0.0.1536.834" timestamp="1609489275498" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1609489485638">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1024.130.1024.738@0.0.1536.834" timestamp="1609489485638" />
+  </component>
+</project>
