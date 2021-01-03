@@ -2,58 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CLass Work</title>
-    <link rel="stylesheet" href="asscest/normalize.css">
+    <title>Assigment_02</title>
+    <link rel="stylesheet" href="assests/normalize.css">
     <style>
-        section:nth-child(1) {
-            width: 100vw;
-            height: 50vh;
+        section {
+            position: relative;
+            height: 100vh;
+            height: 100vh;
+        }
+
+        body > section:nth-child(1) {
+            background: white;
+        }
+
+        body > section:nth-child(2) {
+            background: #46c6d6;
+        }
+
+        body > section:nth-child(3) {
+            background: #2d2c2c;
+        }
+
+        body > section:nth-child(4) {
+            background: #ff0808;
+        }
+
+        section > div {
+            height: 20px;
+            position: sticky;
+            top: 1px;
+            left: 1px;
+        }
+
+        section > section {
+            height: max-content;
+            width: max-content;
             position: absolute;
-            background: red;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            font-size: 100px;
+            text-align: center;
+        }
+
+        section > div {
+            color: white;
         }
 
         section:nth-child(1) > div {
-            width: calc(100% / 3);
-            /*width: 33.33vw;*/
-            height: 50vh;
-            position: absolute;
+            background: red;
         }
 
-        section:nth-child(1) > div:nth-child(1) {
-            /*width: calc(100% / 3);
-            width: 33.33vw;
-            height: 50vh;
-            position: absolute;*/
-            left: 0;
-            background: black;
-        }
-
-        section:nth-child(1) > div:nth-child(2) {
-            /*  width: calc(100% / 3);
-              width: 33.33vw;
-              height: 50vh;
-              right: 33.33vw;
-              position: absolute;*/
-            left: calc((100% / 3) * 1);
+        section:nth-child(2) > div {
             background: blue;
         }
 
-        section:nth-child(1) > div:nth-child(3) {
-            /*width: calc(100% / 3);
-            width: 33.33vw;
-            height: 50vh;
-            position: absolute;*/
-            left: calc((100% / 3) * 2);
-            background: green;
+        section:nth-child(3) > div {
+            background: #373636;
+        }
+
+        section:nth-child(4) > div {
+            background: #7c0505;
         }
     </style>
 </head>
 <body>
 <section>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div>card 1</div>
+    <section> Hello</section>
 </section>
-<section></section>
+<section>
+    <div>card 2</div>
+    <section>How</section>
+</section>
+<section>
+    <div>card 3</div>
+    <section>Are</section>
+</section>
+<section>
+    <div>card 4</div>
+    <section>You</section>
+</section>
 </body>
 </html>
