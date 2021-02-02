@@ -2,136 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Car_Animation</title>
+    <title>Car Animation</title>
     <link rel="stylesheet" href="assects/css/normalize.css">
     <style>
-        section:nth-child(1) {
-            height: 500px;
-            width: 100%;
+
+        body {
+            overflow: hidden;
+        }
+
+        body > div {
+            background: url(assects/image/sky.jpg);
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+
+        }
+
+        body > div > div:nth-child(2) {
+            background: url(assects/image/road.jpg);
+            width: 400%;
+            height: 300px;
+            background-repeat: repeat-x;
             position: absolute;
             bottom: 0;
+            animation: build_move 10s infinite;
+        }
+
+        body > div > div:nth-child(1) {
+            background: url(assects/image/city.png);
+            width: 400%;
+            height: 254px;
+            background-repeat: repeat-x;
+            position: absolute;
+            top: 234px;
+            animation: build_move 10s infinite;
+        }
+
+        body > div > div:nth-child(3) > img:first-child {
+            width: 29vw;
+            position: absolute;
             margin: auto;
-        }
-
-        section:nth-child(1) > img {
-            height: 500px;
-            width: 100%;
-            position: absolute;
-            animation-name: background_move;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
-
-        section:nth-child(2) {
-            height: 500px;
-            width: 100%;
-            position: absolute;
-            bottom: 500px;
-            margin: auto;
-            z-index: 2;
-        }
-
-        section:nth-child(2) > img {
-            height: 500px;
-            width: 100%;
-            position: absolute;
-            animation-name: background_move;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
-
-        section:nth-child(3) {
-            height: 986px;
-            width: 100%;
-            position: absolute;
-            bottom: 500px;
-            margin: auto;
-        }
-
-        section:nth-child(3) > img {
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            animation-name: background_move;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
-
-        section:nth-child(4) {
-            height: max-content;
-            width: max-content;
-            position: absolute;
+            top: 331px;
             bottom: 0;
-            top: 400px;
-            right: 400px;
-            left: 0;
-            margin: auto;
-            z-index: 2;
-        }
-
-        section:nth-child(4) > img {
-            height: 200px;
-            width: auto;
-            bottom: 0;
-            top: 0;
             right: 0;
             left: 0;
-            margin: auto;
-            position: absolute;
         }
 
-        section:nth-child(5) {
-            height: max-content;
-            width: max-content;
+        body > div > div:nth-child(3) > img:nth-child(2) {
+            width: 6vw;
             position: absolute;
-            bottom: 0px;
+            margin: auto;
+            top: 414px;
+            bottom: 0;
+            right: 276px;
+            left: 0;
+            animation: car 10s infinite;
+        }
+
+        body > div > div:nth-child(3) > img:nth-child(3) {
+            width: 6vw;
+            position: absolute;
+            margin: auto;
             top: 411px;
-            right: 326px;
-            left: 0;
-            margin: auto;
-
-        }
-
-        section:nth-child(5) > img {
-            height: 94px;
-            width: auto;
-            position: absolute;
-            animation-name: rotate;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
-
-        section:nth-child(6) {
-            height: max-content;
-            width: max-content;
-            position: absolute;
             bottom: 0;
-            top: 405px;
             right: 0;
-            left: 264px;
-            margin: auto;
+            left: 257px;
+            animation: car 10s infinite;
 
         }
 
-        section:nth-child(6) > img {
-            height: 94px;
-            width: auto;
-            position: absolute;
-            animation-name: rotate;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
 
-        @keyframes rotate {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        @keyframes background_move {
+        @keyframes build_move {
             from {
                 transform: translateX(0);
             }
@@ -139,26 +80,28 @@
                 transform: translateX(-75%);
             }
         }
+
+        @keyframes car {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
     </style>
 </head>
 <body>
-<section>
-    <img src="assects/image/road.jpg" alt="">
-</section>
-<section>
-    <img src="assects/image/city.png" alt="">
-</section>
-<section>
-    <img src="assects/image/sky.jpg" alt="">
-</section>
-<section>
-    <img src="assects/image/car.png" alt="">
-</section>
-<section>
-    <img src="assects/image/wheel.png" alt="">
-</section>
-<section>
-    <img src="assects/image/wheel.png" alt="">
-</section>
+
+<div>
+    <div></div>
+    <div></div>
+    <div>
+        <img src="assects/image/car.png" alt="">
+        <img src="assects/image/wheel.png" alt="">
+        <img src="assects/image/wheel.png" alt="">
+    </div>
+</div>
 </body>
 </html>
+
